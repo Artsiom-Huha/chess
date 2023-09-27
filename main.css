@@ -16,6 +16,6 @@ a{
     font-weight: bold;
 }
 a.bfr::before{
-    content: url(/extref.png);
+    content: url(extref.png);
     
 }
