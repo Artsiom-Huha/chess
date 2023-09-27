@@ -1,0 +1,21 @@
+p:not(.years):not(.data){
+    color: blue;
+    font-style: italic;
+}
+p.data{
+    
+    color: rgb(132, 209, 16);
+    
+}
+p.years{
+    color: red;
+    font-weight: 700;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+}
+a.bfr::before{
+    content: url(/extref.png);
+    
+}
