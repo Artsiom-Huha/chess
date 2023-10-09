@@ -15,7 +15,6 @@ a{
     text-decoration: none;
     font-weight: bold;
 }
-a.bfr::before{
-    content: url(extref.png);
-    
+[href*="//"]::before{
+    content: url(/extref.png);
 }
